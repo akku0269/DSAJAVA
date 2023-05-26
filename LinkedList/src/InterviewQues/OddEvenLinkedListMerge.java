@@ -24,8 +24,9 @@ public class OddEvenLinkedListMerge {
                 temp = temp.next;
             }
         }
-        odd = odd.next;
-        even = even.next;
+        odd = odd.next; // ek aage badhaye
+        even = even.next; // ek aage badhaye
+
         tempO.next= even;
 
         return odd;
