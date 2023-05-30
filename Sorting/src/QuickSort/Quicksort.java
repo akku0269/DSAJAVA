@@ -4,9 +4,10 @@ public class Quicksort {
 
     static void displayArr(int[] arr){
         for (int val:arr) {
-            System.out.println(val +" ");
+            System.out.print(val +" ");
         }
     }
+
     static void swap(int[] arr , int x ,int y){
         int temp = arr[x];
         arr[x] = arr[y];
@@ -19,7 +20,7 @@ public class Quicksort {
         for(int i = st+1 ; i<=end ; i++){
             if(arr[i]<pivot) count++;
         }
-        int pivotIdx = st + count;
+        int pivotIdx =  st + count;
         swap(arr,st,pivotIdx);
 
 
