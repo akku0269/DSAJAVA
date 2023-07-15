@@ -6,7 +6,6 @@ public class MergeSort {
             System.out.print(val +" ");
         }
     }
-
     static void merge(int[] arr ,int l ,int mid ,int r){
         int n1 = mid-l+1;  // size of left array
         int n2 = r-mid;    // size of right array
