@@ -1,5 +1,6 @@
+
 public class ArrayImplementation {
-    public static class queueA{
+     public static class queueA{
         int f = -1;
         int r = -1;
         int size = 0;
@@ -56,8 +57,8 @@ public class ArrayImplementation {
             }
              System.out.println();
          }
-
     }
+
     public static void main(String[] args) {
         int[] arr = new int[100];
         queueA q = new queueA();
@@ -72,6 +73,5 @@ public class ArrayImplementation {
         q.display();
         System.out.println(q.peek());
         System.out.println(q.size);
-
     }
 }

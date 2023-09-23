@@ -39,8 +39,8 @@ public class RemovingNthNodeFromEnd {
         }
     }
 
-    
-        public static void main(String[] args) {
+
+    public static void main(String[] args) {
             Node a = new Node(100);
             Node b = new Node(13);
             Node c = new Node(4);

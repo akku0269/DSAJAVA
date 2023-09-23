@@ -20,8 +20,8 @@ public class Infix {
                     int v1 = val.pop();
                     if (op.peek() == '-') val.push(v1 - v2);
                     else if (op.peek() == '+') val.push(v1 + v2);
-                    else if (op.peek() == '*') val.push(v1 * v2);
-                    else if (op.peek() == '/') val.push(v1 / v2);
+//                    else if (op.peek() == '*') val.push(v1 * v2);
+//                    else if (op.peek() == '/') val.push(v1 / v2);
                     op.pop();
                     // push
                     op.push(ch);
@@ -41,7 +41,7 @@ public class Infix {
                 }
             }
         }
-        // val stack s-ze -> 1
+        // val stack size -> 1
         while(val.size()>1){
             int v2 = val.pop();
             int v1 = val.pop();

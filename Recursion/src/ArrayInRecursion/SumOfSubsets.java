@@ -4,10 +4,10 @@ public class SumOfSubsets {
 
     static void subsetSum(int[] arr  ,  int idx , int currSum){
         int n = arr.length;
-      if(idx>=n){
+        if(idx>=n){
           System.out.println(currSum);
           return;
-      }
+        }
 
         // curr idx +sum
         subsetSum(arr,idx+1,currSum + arr[idx]);

@@ -55,7 +55,7 @@ public class FindingNthNode {
         e.next = f;
         Node q = nthNode(a,2);
         System.out.println(q.data);
-        Node p = nthNodeOneTraversal(a,2);
+        Node p = nthNodeOneTraversal(a,4);
         System.out.println(p.data);
 
     }

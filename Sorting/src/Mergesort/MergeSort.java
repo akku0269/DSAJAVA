@@ -1,11 +1,13 @@
 package Mergesort;
 
 public class MergeSort {
+
     static void displayArr(int[] arr){
         for (int val:arr) {
             System.out.print(val +" ");
         }
     }
+
     static void merge(int[] arr ,int l ,int mid ,int r){
         int n1 = mid-l+1;  // size of left array
         int n2 = r-mid;    // size of right array
@@ -32,7 +34,6 @@ public class MergeSort {
     }
     static void mergeSort(int[] arr , int l ,int r){
         if(l>=r) return;
-
         int mid =(l+r)/2;
         mergeSort(arr,l,mid);
         mergeSort(arr,mid+1,r);

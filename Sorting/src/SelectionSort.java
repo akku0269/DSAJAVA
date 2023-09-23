@@ -9,7 +9,7 @@ public class SelectionSort {
                   min_Index=j;
               }
           }
-          // swap current element and minimum element -> current index i will have
+            // swap current element and minimum element -> current index i will have
             // arr[min_index] , arr[i]
           int temp = arr[i];
           arr[i] = arr[min_Index];
@@ -21,7 +21,7 @@ public class SelectionSort {
         int[] arr = {7,4,5,1,2};
         selectionSort(arr);
         for(int i=0 ; i<arr.length ; i++){
-            System.out.println(arr[i]+" ");
+            System.out.print(arr[i]+" ");
         }
     }
 }

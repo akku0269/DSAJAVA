@@ -1,5 +1,5 @@
 package BinarySearch;
-// itrative          // recursive
+// iterative          // recursive
 // TC : O(logn)      // TC : O(n logn)
 // SC : O()          // SC : O()
 
