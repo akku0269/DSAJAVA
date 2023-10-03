@@ -9,7 +9,7 @@ public class priorityQueue {
         Integer marks;
     }
 
-    private static class StudentComperator implements Comparator<Student> {
+    private static class StudentComparator implements Comparator<Student> {
         // overriding
         public int compare(Student s1, Student s2) {
             if (s1.marks > s2.marks) {
@@ -29,7 +29,7 @@ public class priorityQueue {
 
         public static void main(String[] args) {
             List<Student> students = new ArrayList<>();
-            PriorityQueue<Student> studentsPriorityQueue = new PriorityQueue<>(new StudentComperator());
+            PriorityQueue<Student> studentsPriorityQueue = new PriorityQueue<>(new StudentComparator());
 
             Student harsh = new Student();
             harsh.name = "Harsh";
